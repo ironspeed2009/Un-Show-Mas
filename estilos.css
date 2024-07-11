@@ -1,0 +1,101 @@
+@font-face{
+	font-family:georgia;
+	src: url(“fuentes/georgia.ttf”);
+}
+
+@font-face{
+	font-family:couri;
+	src: url("fuentes/couri.ttf");
+}
+
+@font-face{
+	font-family:GIL;
+	src: url("fuentes/GIL.TTF");
+}
+
+body{
+	background-image:url("imagenes/fondogalaxia.jpg");
+}
+
+h1{
+	color:white;
+	text-align:center;
+	font-family:georgia;
+}
+
+h2{
+	color:white;
+	font-family:couri;
+	border-bottom:3px;
+	border-style:solid;
+
+}
+
+p{
+	color:white;
+	text-align:justify;
+	font-size:18px;
+	font-family:GIL;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+
+td{
+	color:white;
+}
+
+li{
+	color:white;
+}
+
+.imgpapurris{
+	display:block;
+	margin:auto;
+}
+
+.imgotras:hover{
+	border-right:solid;
+	color:grey;
+	border-radius:40%;
+	width:3%;
+	
+	
+}
+
+.imgotras:link{ 
+	display:inline;
+    margin:auto;
+	width:100%;
+}
+ul{
+	color:white;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+
+a{
+	color:cyan;
+	
+	
+}
+
+table{
+	margin-left:5%;
+	margin-right:5%;
+	font-size:15px;
+	font-family:GIL;
+	border-width:10px;
+	border-color:#542b54;
+	text-align:center;
+	width:80%;
+	height:100px;
+	border-spacing:10px;
+	border-style:solid;
+	background-color:#401940;
+}
+
+
+
+
